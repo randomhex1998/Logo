@@ -376,3 +376,30 @@ a {
   background-position: center center;
   height: 30vh;
 }
+.consent .card-overlay .container {
+  position: relative;
+  z-index: 9999;
+}
+.consent .card-overlay .container .row {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consent--box {
+  text-align: center;
+  color: white;
+  font-family: var(--persian-main-font);
+}
+.consent--icon {
+  font-size: 35px;
+  color: var(--purple-color);
+}
+.consent--box__number {
+  font-size: 40px;
+  padding: 8px 0;
+}
+.consent--box__text {
+  font-size: 20px;
+  font-weight: 300;
+}
