@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+.row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.colmun {
+  flex: 1;
+}
+
+.col-two-thirds {
+  flex: 2;
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .colmun {
+    flex-basis: 100%;
+  }
+}
