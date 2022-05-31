@@ -366,3 +366,13 @@ a {
   color: var(--purple-color) !important;
   font-size: 20px !important;
 }
+
+/* ================= Consent Styles ================= */
+
+.consent {
+  background-image: url("../img/consent.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 30vh;
+}
