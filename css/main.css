@@ -428,6 +428,21 @@ a {
   align-items: center;
   justify-content: center;
 }
-.plan--box--sub__number{
+.plan--box--sub__number {
   font-size: 13px;
+}
+.plan--box__content {
+  line-height: 1.6;
+}
+.plan--box__content p {
+  color: var(--bold-gray-color);
+  font-size: 15px;
+  font-weight: 300;
+}
+.plan--box--btn__are {
+  margin: 2rem 0;
+}
+.plan--box__btn {
+  border: 1px solid var(--purple-color);
+  padding: 10px 20px;
 }
