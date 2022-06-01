@@ -465,3 +465,26 @@ a {
   padding: 10rem 0;
   background-color: rgba(56, 56, 56, 0.801);
 }
+
+.customer--box {
+  font-family: var(--persian-main-font);
+  color: var(--white-color);
+  text-align: right;
+}
+.customer--box__head {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 15px;
+}
+.customer--box--head__imgbox {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.customer--box--head__imgbox img {
+  max-width: 100%;
+  height: auto;
+}
