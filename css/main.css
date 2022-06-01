@@ -453,3 +453,14 @@ a {
   background-color: var(--purple-color);
   color: var(--white-color);
 }
+/* ================= Customers Styles ================= */
+.customer {
+  background-image: url("../img/pic2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.customer .card-overlay{
+  padding: 10rem 0;
+}
