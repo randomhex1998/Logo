@@ -4,8 +4,18 @@
 
 @media screen and (max-width: 960px) {
   /* ========= Header Styles ========= */
+
   .content-nav {
     padding: 0 3rem;
+  }
+
+  /* ========= Consent Styles ========= */
+  .consent {
+    height: auto;
+  }
+  .consent .card-overlay .container .row {
+    height: auto;
+    padding: 2rem;
   }
 }
 
