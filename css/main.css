@@ -456,14 +456,13 @@ a {
 /* ================= Customers Styles ================= */
 .customer {
   background-image: url("../img/pic2.jpg");
-  background-position: center center;
+  background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
 .customer .card-overlay {
   padding: 10rem 0;
-  background-color: rgba(56, 56, 56, 0.801);
 }
 
 .customer--box {
@@ -487,4 +486,18 @@ a {
 .customer--box--head__imgbox img {
   max-width: 100%;
   height: auto;
+}
+.customer--box--head__title {
+  font-size: 16px;
+}
+.customer--box--head__subtitle {
+  color: var(--purple-color);
+  font-weight: 300;
+  font-size: 13px;
+}
+.customer--box__content {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 2;
+  margin-top: 1rem;
 }
