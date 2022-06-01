@@ -461,6 +461,7 @@ a {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
-.customer .card-overlay{
+.customer .card-overlay {
   padding: 10rem 0;
+  background-color: rgba(56, 56, 56, 0.801);
 }
