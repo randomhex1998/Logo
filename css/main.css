@@ -501,3 +501,27 @@ a {
   line-height: 2;
   margin-top: 1rem;
 }
+
+/* ================= Team Styles ================= */
+
+.team--box {
+  background-color: #f1f2f6;
+  text-align: center;
+  font-family: var(--persian-main-font);
+  padding: 2rem 1rem;
+}
+.team--box--img__area {
+  overflow: hidden !important;
+}
+.team--box--img__area img {
+  max-width: 100%;
+  height: auto;
+}
+.team--box--title {
+  font-weight: 900;
+  font-size: 18px;
+}
+.team--box--sub__title {
+  font-size: 14px;
+  font-weight: 400;
+}
