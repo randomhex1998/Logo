@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.4s ease;
+  transition: all 0.4s;
   text-transform: capitalize;
 }
 
@@ -328,9 +328,6 @@ a {
   max-width: 100%;
   height: auto;
 }
-.why-left-side {
-  /* flex-basis: 50%; */
-}
 .why--left__title {
   color: var(--black-color);
   font-family: var(--persian-main-font);
@@ -548,17 +545,33 @@ a {
 
 .form--contact {
   direction: rtl;
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 .form--contact--input,
 .form--contact--txtarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: none;
-  outline: none;
-  background-color: #f1f6f8;
+  border: 0;
+  outline: 0;
+  background-color: #ecf0f1;
+  font-family: var(--persian-main-font);
+  box-sizing: border-box;
+  border-bottom: 2px solid #eee;
+  transition: 0.2s border-color, 0.2s opacity;
+  opacity: 0.5;
+}
+.form--contact--input::placeholder,
+.form--contact--txtarea::placeholder {
+  color: var(--bold-gray-color);
+  font-weight: 400;
+}
+.form--contact--input:focus,
+.form--contact--txtarea:focus {
+  border-color: var(--purple-color);
+  opacity: 1;
 }
 .name {
   display: flex;
