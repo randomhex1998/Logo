@@ -66,7 +66,7 @@
   .col.click .bars:nth-child(3) {
     transform: translateY(-16px) rotate(-45deg);
   }
-  
+
   /* ================= Contact Styles ================= */
   /* --- contact form ---*/
   .form--contact {
@@ -88,5 +88,14 @@
   /* ========= Header Styles ========= */
   .content-nav .area-btn {
     flex-direction: column;
+  }
+  /* ========= Footer Styles ========= */
+  .social-area {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .social--links:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 }
