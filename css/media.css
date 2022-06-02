@@ -66,6 +66,11 @@
   .col.click .bars:nth-child(3) {
     transform: translateY(-16px) rotate(-45deg);
   }
+
+  /* --- contact form ---*/
+  .form--contact {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 540px) {
