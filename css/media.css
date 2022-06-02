@@ -66,7 +66,8 @@
   .col.click .bars:nth-child(3) {
     transform: translateY(-16px) rotate(-45deg);
   }
-
+  
+  /* ================= Contact Styles ================= */
   /* --- contact form ---*/
   .form--contact {
     width: 100%;
