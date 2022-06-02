@@ -525,3 +525,22 @@ a {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* ================= Contact Styles ================= */
+.contact--box {
+  text-align: center;
+  font-family: var(--persian-main-font);
+}
+.contact--box__icon {
+  color: var(--purple-color);
+  font-size: 30px;
+}
+.contact--box__title {
+  padding: 10px 0;
+  font-weight: 800;
+  font-size: 18px;
+}
+.contact--box__sub {
+  font-weight: 300;
+  font-size: 14px;
+}
